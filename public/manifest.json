@@ -1,9 +1,9 @@
 {
-    "name": "react-app-template",
-    "short_name": "react-app-template",
+    "name": "COVID-19 Data Visualizer",
+    "short_name": "COVID-19 Visualizer",
     "start_url": "/",
-    "theme_color": "#61dafb",
-    "background_color": "#ffffff",
+    "theme_color": "#027afd",
+    "background_color": "#191a1a",
     "display": "standalone",
     "icons": [
         {

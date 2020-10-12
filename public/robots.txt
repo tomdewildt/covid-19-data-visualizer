@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://react-app-template.tomdewildt.nl/sitemap.xml
-Host: https://react-app-template.tomdewildt.nl
+Sitemap: https://covid-19-data-visualizer.tomdewildt.nl/sitemap.xml
+Host: https://covid-19-data-visualizer.tomdewildt.nl
