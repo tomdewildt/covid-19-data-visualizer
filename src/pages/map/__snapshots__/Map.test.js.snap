@@ -2,9 +2,102 @@
 
 exports[`Map renders consistently 1`] = `
 <DocumentFragment>
-  <main
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #191a1a;
+}
+
+.c1 {
+  height: 3rem;
+  overflow: visible;
+  stroke: #c4c4c4;
+}
+
+.c1 line {
+  -webkit-animation: fade 0.8s linear infinite;
+  animation: fade 0.8s linear infinite;
+}
+
+.c1 line:nth-child(1) {
+  -webkit-animation-delay: -0.7s;
+  animation-delay: -0.7s;
+}
+
+.c1 line:nth-child(2) {
+  -webkit-animation-delay: -0.6s;
+  animation-delay: -0.6s;
+}
+
+.c1 line:nth-child(3) {
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+
+.c1 line:nth-child(4) {
+  -webkit-animation-delay: -0.4s;
+  animation-delay: -0.4s;
+}
+
+.c1 line:nth-child(5) {
+  -webkit-animation-delay: -0.3s;
+  animation-delay: -0.3s;
+}
+
+.c1 line:nth-child(6) {
+  -webkit-animation-delay: -0.2s;
+  animation-delay: -0.2s;
+}
+
+.c1 line:nth-child(7) {
+  -webkit-animation-delay: -0.1s;
+  animation-delay: -0.1s;
+}
+
+.c1 line:nth-child(8) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.c2 {
+  margin: 1.5rem;
+  color: #c4c4c4;
+}
+
+<main
     class=""
     id="map"
-  />
+  >
+    <div
+      class="c0"
+    >
+      <svg
+        class="c1"
+        title="loading icon"
+      >
+        loader.svg
+      </svg>
+      <p
+        class="c2"
+      >
+        Loading...
+      </p>
+    </div>
+  </main>
 </DocumentFragment>
 `;

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error renders consistently 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #191a1a;
+}
+
+.c1 {
+  height: 3rem;
+  overflow: visible;
+  stroke: #c4c4c4;
+}
+
+.c1 polygon {
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-animation: ripple 3s infinite;
+  animation: ripple 3s infinite;
+}
+
+.c2 {
+  margin: 1.5rem;
+  color: #c4c4c4;
+}
+
+<div
+    class="c0"
+  >
+    <svg
+      class="c1"
+      title="error icon"
+    >
+      alert.svg
+    </svg>
+    <p
+      class="c2"
+    >
+      An unexpected error occurred.
+    </p>
+  </div>
+</DocumentFragment>
+`;
