@@ -9,11 +9,11 @@ export const actions = {};
 export const selectors = {};
 
 // Reducers
-const defaultState = { home: null };
+const defaultState = { data: null };
 
-const home = ( state = defaultState.home ) => state;
+const data = ( state = defaultState.data ) => state;
 
-export const reducers = combineReducers( { home } );
+export const reducers = combineReducers( { data } );
 
 // Sagas
 export const sagas = function* main() {

@@ -4,7 +4,7 @@ exports[`Router renders consistently 1`] = `
 <DocumentFragment>
   <main
     class=""
-    id="home"
+    id="map"
   />
 </DocumentFragment>
 `;

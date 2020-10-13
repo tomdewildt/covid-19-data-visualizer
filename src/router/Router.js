@@ -7,14 +7,14 @@ import {
 } from "react-router-dom";
 import PropTypes from "prop-types";
 
-import { PageHome } from "../pages";
+import { PageMap } from "../pages";
 
 const Router = ( { children } ) => (
     <BrowserRouter>
         { children }
         <Switch>
-            <Route exact path="/" component={ PageHome } />
-            <Route exact path="*" component={ () => <Redirect to="/" /> } />
+            <Route exact path="/" component={ PageMap } />
+            <Route path="*" component={ () => <Redirect to="/" /> } />
         </Switch>
     </BrowserRouter>
 );

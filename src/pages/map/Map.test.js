@@ -3,18 +3,18 @@ import { axe } from "jest-axe";
 
 import { renderWithTheme } from "../../utils/testUtils";
 
-import PageHome from "./Home";
+import PageMap from "./Map";
 
-describe( "Home", () => {
+describe( "Map", () => {
     it( "renders consistently", () => {
-        const { asFragment } = renderWithTheme( <PageHome /> );
+        const { asFragment } = renderWithTheme( <PageMap /> );
         const fragment = asFragment();
 
         expect( fragment ).toMatchSnapshot();
     } );
 
     it( "should have no axe violations", async () => {
-        const { container } = renderWithTheme( <PageHome /> );
+        const { container } = renderWithTheme( <PageMap /> );
         const result = await axe( container );
 
         expect( result ).toHaveNoViolations();

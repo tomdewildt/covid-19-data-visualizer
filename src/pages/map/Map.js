@@ -2,8 +2,8 @@ import React from "react";
 
 import { Page } from "../../components";
 
-const PageHome = () => (
-    <Page id="home" />
+const PageMap = () => (
+    <Page id="map" />
 );
 
-export default PageHome;
+export default PageMap;

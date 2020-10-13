@@ -10,7 +10,7 @@ describe( "reducers", () => {
     it( "dispatches the correct state", () => {
         const state = runReducer( reducers );
 
-        expect( state.home ).toBeNull();
+        expect( state.data ).toBeNull();
     } );
 } );
 

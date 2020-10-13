@@ -1,7 +1,7 @@
 import { combineReducers } from "redux";
 
-import { reducers as home } from "./pages/home/duck";
+import { reducers as map } from "./pages/map/duck";
 
 export default combineReducers( {
-    home,
+    map,
 } );

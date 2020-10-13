@@ -20,15 +20,15 @@ describe( "Router", () => {
         expect( result ).toHaveNoViolations();
     } );
 
-    it( "renders home page", () => {
+    it( "renders map page", () => {
         const { container } = renderWithRouter( <Router />, [ "/" ] );
 
-        expect( container.querySelector( "#home" ) ).toBeInTheDocument();
+        expect( container.querySelector( "#map" ) ).toBeInTheDocument();
     } );
 
-    it( "redirects to home page", () => {
+    it( "redirects to map page", () => {
         const { container } = renderWithRouter( <Router />, [ "/test" ] );
 
-        expect( container.querySelector( "#home" ) ).toBeInTheDocument();
+        expect( container.querySelector( "#map" ) ).toBeInTheDocument();
     } );
 } );
