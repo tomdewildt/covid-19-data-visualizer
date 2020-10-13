@@ -1,4 +1,6 @@
 export default {
+    borderRadius: "0.5rem",
+
     spacing: [
         "0",
         "0.25rem",
