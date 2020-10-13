@@ -1,3 +1,11 @@
+import React from "react";
+
+// Components
+jest.mock( "@deck.gl/react", () => jest.fn( ( { children } ) => (
+    <mock-deckgl>{ children }</mock-deckgl>
+) ) );
+
+// Assets
 jest.mock( "../assets/gemeenten.json", () => ( [
     {
         type: "Feature",

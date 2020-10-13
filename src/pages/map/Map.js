@@ -3,7 +3,12 @@ import { connect } from "react-redux";
 import PropTypes from "prop-types";
 
 import { actions } from "./duck";
-import { Page, Error, Loading } from "../../components";
+import {
+    Page,
+    Error,
+    Loading,
+    Map,
+} from "../../components";
 
 const PageMap = ( { dataset, error, LoadDataset } ) => {
     useEffect( () => {
@@ -25,8 +30,20 @@ const PageMap = ( { dataset, error, LoadDataset } ) => {
         );
     }
 
+    const data = dataset.data.get( dataset.dates[ dataset.dates.length - 1 ] ) ?? [];
     return (
-        <Page id="map" />
+        <Page id="map">
+            <Map
+                data={ data }
+                viewState={ {
+                    latitude: 52.1326,
+                    longitude: 5.2913,
+                    zoom: 7,
+                    pitch: 0,
+                    bearing: 0,
+                } }
+            />
+        </Page>
     );
 };
 

@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip renders consistently 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  min-width: 160px;
+  max-height: 240px;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background: #191a1a;
+  color: #ffffff;
+  z-index: 10;
+}
+
+<div
+    class="c0"
+    x="0"
+    y="0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Tooltip.Text renders consistently 1`] = `
+<DocumentFragment>
+  .c0 {
+  margin: 0;
+  font-size: calc(1rem * 0.75);
+}
+
+<p
+    class="c0"
+  >
+    text
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Tooltip.Title renders consistently 1`] = `
+<DocumentFragment>
+  .c0 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+}
+
+<h1
+    class="c0"
+  >
+    title
+  </h1>
+</DocumentFragment>
+`;
