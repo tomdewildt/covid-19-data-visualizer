@@ -1,9 +1,9 @@
 import { all } from "redux-saga/effects";
 
-import { sagas as home } from "./pages/home/duck";
+import { sagas as map } from "./pages/map/duck";
 
 export default function* root() {
     yield all( [
-        home(),
+        map(),
     ] );
 }
