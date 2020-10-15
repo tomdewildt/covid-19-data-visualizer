@@ -22,6 +22,10 @@ jobs:
         run: npm run lint
       - name: Run build
         run: npm run build
+        env:
+          REACT_APP_DATA_URL: ${{ secrets.DATA_URL }}
+          REACT_APP_MAPBOX_API_TOKEN: ${{ secrets.MAPBOX_API_TOKEN }}
+          REACT_APP_MAPBOX_STYLE: ${{ secrets.MAPBOX_STYLE }}
       - name: Run test
         run: npm run test -- --coverage
       - name: Upload coverage
