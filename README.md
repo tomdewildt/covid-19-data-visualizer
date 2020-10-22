@@ -23,6 +23,8 @@ Prerequisites:
 
 # References
 
+[React Docs](https://reactjs.org/docs/)
+
 [Deck.GL Docs](https://deck.gl/docs)
 
 [Redux Docs](https://redux.js.org/api/api-reference)
