@@ -10,7 +10,7 @@
         "lint": "eslint . --fix"
     },
     "dependencies": {
-        "@deck.gl/aggregation-layers": "8.4.19",
+        "@deck.gl/aggregation-layers": "8.4.20",
         "@deck.gl/core": "8.4.19",
         "@deck.gl/layers": "8.4.19",
         "@deck.gl/react": "8.4.19",
