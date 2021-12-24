@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 
 // Components
-jest.mock( "@deck.gl/react", () => jest.fn( ( { children } ) => (
+jest.mock( "@deck.gl/react", () => ( { children } ) => (
     <mock-deckgl>{ children }</mock-deckgl>
-) ) );
+) );
 
 // Assets
 jest.mock( "../assets/gemeenten.json", () => ( [
@@ -23,3 +24,4 @@ jest.mock( "../assets/gemeenten.json", () => ( [
         geometry: { type: "MultiPolygon", coordinates: [] },
     },
 ] ) );
+
