@@ -1,3 +1,4 @@
+/* eslint-disable default-param-last */
 import { combineReducers } from "redux";
 import { call, put, takeLatest } from "redux-saga/effects";
 import Papa from "papaparse";
@@ -19,16 +20,16 @@ export const actions = {
 
 // Api
 export const api = {
-    loadDataset: ( name ) => new Promise( ( resolve, reject ) => Papa.parse(
-        `${ BASE_URL }/${ name }`, {
+    loadDataset: ( name ) => new Promise( ( resolve, reject ) => {
+        Papa.parse( `${ BASE_URL }/${ name }`, {
             header: true,
             download: true,
             dynamicTyping: true,
             skipEmptyLines: true,
             complete: resolve,
             error: reject,
-        },
-    ) ),
+        } );
+    } ),
 };
 
 // Selectors

@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+/* eslint-disable react/function-component-definition, react/prop-types */
 import React from "react";
 
 // Components
@@ -24,4 +24,3 @@ jest.mock( "../assets/gemeenten.json", () => ( [
         geometry: { type: "MultiPolygon", coordinates: [] },
     },
 ] ) );
-
