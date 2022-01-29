@@ -13,7 +13,7 @@
         "@deck.gl/aggregation-layers": "8.6.7",
         "@deck.gl/core": "8.6.7",
         "@deck.gl/layers": "8.6.7",
-        "@deck.gl/react": "8.6.6",
+        "@deck.gl/react": "8.6.7",
         "mapbox-gl": "2.6.1",
         "papaparse": "5.3.1",
         "prop-types": "15.8.1",
