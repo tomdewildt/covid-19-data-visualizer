@@ -3,14 +3,7 @@
 exports[`Map renders consistently 1`] = `
 <DocumentFragment>
   <mock-deckgl>
-    <div
-      style="position: relative; width: 0px; height: 0px;"
-    >
-      <div
-        class=""
-        style="position: absolute; width: 100%; height: 100%; overflow: hidden; visibility: inherit;"
-      />
-    </div>
+    <mock-mapgl />
   </mock-deckgl>
 </DocumentFragment>
 `;
