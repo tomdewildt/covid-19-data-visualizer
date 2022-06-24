@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import DeckGL from "@deck.gl/react";
 import { GeoJsonLayer } from "@deck.gl/layers";
 import { HeatmapLayer } from "@deck.gl/aggregation-layers";
-import { StaticMap } from "react-map-gl";
+import { Map as MapGL } from "react-map-gl";
 import PropTypes from "prop-types";
 
 import Tooltip from "../tooltip/Tooltip";
@@ -44,7 +44,7 @@ const Map = ( { data, viewState } ) => {
             initialViewState={ viewState }
             onViewStateChange={ () => setTooltip( {} ) }
         >
-            <StaticMap
+            <MapGL
                 reuseMaps
                 preventStyleDiffing
                 mapStyle={ MAPBOX_STYLE }
