@@ -6,6 +6,12 @@ jest.mock( "@deck.gl/react", () => ( { children } ) => (
     <mock-deckgl>{ children }</mock-deckgl>
 ) );
 
+jest.mock( "react-map-gl", () => ( {
+    Map: ( { children } ) => (
+        <mock-mapgl>{ children }</mock-mapgl>
+    ),
+} ) );
+
 // Assets
 jest.mock( "../assets/gemeenten.json", () => ( [
     {
