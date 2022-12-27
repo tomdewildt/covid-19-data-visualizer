@@ -1,5 +1,5 @@
 # COVID-19 Data Visualizer
-[![Build](https://img.shields.io/github/workflow/status/tomdewildt/covid-19-data-visualizer/ci/master)](https://github.com/tomdewildt/covid-19-data-visualizer/actions?query=workflow%3Aci)
+[![Build](https://img.shields.io/github/actions/workflow/status/tomdewildt/covid-19-data-visualizer/ci.yml?branch=master)](https://github.com/tomdewildt/covid-19-data-visualizer/actions/workflows/ci.yml)
 [![Coverage](https://img.shields.io/codecov/c/gh/tomdewildt/covid-19-data-visualizer)](https://codecov.io/gh/tomdewildt/covid-19-data-visualizer)
 [![License](https://img.shields.io/github/license/tomdewildt/covid-19-data-visualizer)](https://github.com/tomdewildt/covid-19-data-visualizer/blob/master/LICENSE)
 
