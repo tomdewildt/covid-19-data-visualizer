@@ -11,7 +11,7 @@
     },
     "dependencies": {
         "@deck.gl/aggregation-layers": "8.8.23",
-        "@deck.gl/core": "8.8.22",
+        "@deck.gl/core": "8.8.23",
         "@deck.gl/layers": "8.8.22",
         "@deck.gl/react": "8.8.22",
         "mapbox-gl": "2.12.0",
