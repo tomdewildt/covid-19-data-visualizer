@@ -10,10 +10,10 @@
         "lint": "eslint . --fix"
     },
     "dependencies": {
-        "@deck.gl/aggregation-layers": "8.9.0",
-        "@deck.gl/core": "8.9.0",
-        "@deck.gl/layers": "8.8.26",
-        "@deck.gl/react": "8.8.26",
+        "@deck.gl/aggregation-layers": "9.3.2",
+        "@deck.gl/core": "9.3.2",
+        "@deck.gl/layers": "9.3.2",
+        "@deck.gl/react": "9.3.2",
         "mapbox-gl": "3.16.0",
         "papaparse": "5.5.3",
         "prop-types": "15.8.1",
